@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.fdbb50ef1606bcfeb1e8fef618d06a5b.js"
+  "/precache-manifest.43b2d4745ddd89c4cf58eea393d0e311.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "softmedialab"});
+workbox.core.setCacheNameDetails({prefix: "test-project"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
